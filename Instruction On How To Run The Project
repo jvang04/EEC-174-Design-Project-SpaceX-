@@ -1,0 +1,40 @@
+
+Step 1: Open Google Colab
+
+Create a new Google Colab notebook or open the notebook provided in `/Final Code`.
+
+Step 2: Copy and Paste Code Blocks
+
+The code is organized into three sections intended to be run one at a time in Google Colab. Copy and paste each code block into separate cells in Colab.
+
+Step 3: Upload Required Files to your computer
+
+Upload the following files into the Colab environment:
+
+* `best.pt` trained model weights
+* Traffic video files for analysis
+
+Step 5: Run the Code Sections
+
+Part 5a: Model Training (Optional)
+This section was used to fine-tune the YOLO model using the VisDrone dataset. Since the trained model weights (`best.pt`) are provided, users have the option to run it. 
+If you want to run more than 3 epochsl, please change the number of epoch and run cell 1 again. 
+
+Part 5b: Detection and Tracking**
+This setup cell installs the required tracking dependencies and configures the SORT tracker.
+Running this cell helps avoid file conflictions and download a clean copy of SORT repository. 
+
+Part 5C: Classifcation, MPH, Merging and CSV Files
+* Load the trained model (`best.pt`)
+* Load the traffic analysis video
+* Wait until all files and videos are downlaoded. 
+
+
+### Expected Workflow
+
+1. Open Google Colab
+2. Copy and paste code blocks into each cell
+3. Upload files
+4. Skip Part 1
+5. Run Parts 2 and 3
+6. Download the remaining files containg csv files. 
