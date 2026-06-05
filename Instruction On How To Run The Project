@@ -25,8 +25,8 @@ This setup cell installs the required tracking dependencies and configures the S
 Running this cell helps avoid file conflictions and download a clean copy of SORT repository. 
 
 Part 5C: Classifcation, MPH, Merging and CSV Files
-* Load the trained model (`best.pt`)
-* Load the traffic analysis video
+* Load the trained model (`best.pt`) in "YOLO Trained Model Called Best"
+* Load the traffic analysis video in the file "Original Video Used for Final Video".
 * Wait until all files and videos are downlaoded. 
 
 
